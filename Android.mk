@@ -36,7 +36,7 @@ rwildcard=$(wildcard $1$2) $(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2))
 
 LOCAL_LDLIBS 	:= -llog -ldl
 LOCAL_MODULE    := RiDyL
-LOCAL_CPPFLAGS 	:= -std=c++2a 
+LOCAL_CPPFLAGS 	:= -std=c++2a
 #LOCAL_SHARED_LIBRARIES := testil2cpp
 LOCAL_C_INCLUDES := ./include ./src
 LOCAL_SRC_FILES := $(call rwildcard,src/,*.cpp)

@@ -1,5 +1,5 @@
 #include "RiDyL.hpp"
-#include "private/util.hpp"
+#include "util.hpp"
 
 extern "C" {
 #include <dlfcn.h>
@@ -7,6 +7,8 @@ extern "C" {
 }
 
 using namespace RiDyL;
+
+auto to_string = csimport<void*(void*)>("System.Object:ToString()");
 
 int main() {
 

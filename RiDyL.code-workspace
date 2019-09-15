@@ -7,7 +7,25 @@
 	"settings": {
 		"files.associations": {
 			"utility": "cpp",
-			"type_traits": "cpp"
+			"type_traits": "cpp",
+			"string_view": "cpp",
+			"__config": "cpp",
+			"xstring": "cpp",
+			"functional": "cpp",
+			"memory": "cpp",
+			"xmemory": "cpp",
+			"xstddef": "cpp",
+			"__debug": "cpp",
+			"__nullptr": "cpp",
+			"__tuple": "cpp",
+			"algorithm": "cpp",
+			"cstddef": "cpp",
+			"exception": "cpp",
+			"iterator": "cpp",
+			"initializer_list": "cpp",
+			"iosfwd": "cpp",
+			"limits": "cpp",
+			"new": "cpp"
 		}
 	}
 }
