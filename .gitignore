@@ -3,3 +3,5 @@
 /obj/**
 /libs
 /libs/**
+/build
+/build/**
